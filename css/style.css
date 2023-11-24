@@ -30,9 +30,9 @@
 
 .link {
   min-height: 10px;
-  min-width: 500px;
+  min-width: 300px;
   background-color: chocolate;
-  border: 1px dashed;
+  border: 1px dashed black;
   text-align: center;
 }
 
@@ -40,8 +40,73 @@
   min-height: 10px;
   min-width: 200px;
   background-color: chocolate;
-  border: 1px dashed;
+  border: 1px dashed black;
   text-align: end;
 }
 
 /*Primo Layout*/
+
+.wrapper2 {
+  display: flex;
+  background-color: rgb(61, 244, 0);
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  padding: 40px 0;
+}
+
+.primo-contenitore {
+  min-height: 200px;
+  min-width: 500px;
+  background-color: blueviolet;
+  border: 1px dashed black;
+}
+
+/*Secondo e Quarto Layout*/
+
+.wrapper3 {
+  display: flex;
+  background-color: white;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  padding: 40px 0;
+}
+
+/*Secondo e terzo contenitore vanno bene per i prossimi 2 layout*/
+.secondo-contenitore {
+  min-height: 200px;
+  min-width: 400px;
+  background-color: cornflowerblue;
+  border: 1px dashed black;
+}
+
+.terzo-contenitore {
+  min-height: 200px;
+  min-width: 300px;
+  background-color: rosybrown;
+  border: 1px dashed black;
+}
+
+/*Terzo Layout*/
+
+.wrapper4 {
+  display: flex;
+  background-color: rgb(190, 190, 190);
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  padding: 40px 0;
+}
+
+/*Quinto Layout*/
+
+.quinto-contenitore {
+  min-height: 400px;
+  min-width: 700px;
+  background-color: brown;
+  border: 1px dashed black;
+}
