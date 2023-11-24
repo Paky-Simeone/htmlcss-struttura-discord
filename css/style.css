@@ -44,7 +44,7 @@
   text-align: end;
 }
 
-/*Primo Layout*/
+/*Primo Layout main*/
 
 .wrapper2 {
   display: flex;
@@ -63,7 +63,7 @@
   border: 1px dashed black;
 }
 
-/*Secondo e Quarto Layout*/
+/*Secondo e Quarto Layout main*/
 
 .wrapper3 {
   display: flex;
@@ -75,7 +75,7 @@
   padding: 40px 0;
 }
 
-/*Secondo e terzo contenitore vanno bene per i prossimi 2 layout*/
+/*Secondo e terzo contenitore vanno bene per i prossimi 2 layout main*/
 .secondo-contenitore {
   min-height: 200px;
   min-width: 400px;
@@ -90,7 +90,7 @@
   border: 1px dashed black;
 }
 
-/*Terzo Layout*/
+/*Terzo Layout main*/
 
 .wrapper4 {
   display: flex;
@@ -102,11 +102,66 @@
   padding: 40px 0;
 }
 
-/*Quinto Layout*/
+/*Quinto Layout main*/
 
 .quinto-contenitore {
   min-height: 400px;
   min-width: 700px;
   background-color: brown;
   border: 1px dashed black;
+}
+
+/*Primo Layout footer*/
+
+.wrapper5 {
+  display: flex;
+  background-color: darkslategray;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  padding: 40px 0;
+}
+
+.sesto-contenitore {
+  min-height: 300px;
+  min-width: 200px;
+  background-color: darkgreen;
+  border: 1px dashed black;
+}
+
+.settimo-contenitore {
+  min-height: 300px;
+  min-width: 125px;
+  background-color: darkcyan;
+  border: 1px dashed black;
+}
+
+/*Secondo Layout Footer*/
+
+.wrapper6 {
+  display: flex;
+  height: 100px;
+  background-color: darkslategray;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.contenitore-footer {
+  height: 70px;
+  width: 700px;
+  background-color: cyan;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.logo2 {
+  min-height: 30px;
+  min-width: 100px;
+  background-color: deeppink;
+  border: 1px dashed;
+  text-align: center;
+  vertical-align: middle;
 }
