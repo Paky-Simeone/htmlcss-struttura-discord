@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --space: 15px;
+}
+
+/*Nav, inizio pagina*/
+
+.wrapper {
+  display: flex;
+  background-color: rgb(0, 179, 244);
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  padding: 20px 0;
+}
+
+.logo {
+  min-height: 10px;
+  min-width: 200px;
+  background-color: chocolate;
+  border: 1px dashed;
+  text-align: start;
+}
+
+.link {
+  min-height: 10px;
+  min-width: 500px;
+  background-color: chocolate;
+  border: 1px dashed;
+  text-align: center;
+}
+
+.login {
+  min-height: 10px;
+  min-width: 200px;
+  background-color: chocolate;
+  border: 1px dashed;
+  text-align: end;
+}
+
+/*Primo Layout*/
